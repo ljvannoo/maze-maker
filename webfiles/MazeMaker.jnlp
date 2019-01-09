@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<jnlp
+  spec="1.0+"
+  codebase="http://blackmud.delvern.com/mazemaker/"
+  href="MazeMaker.jnlp">
+  <information>
+    <title>MazeMaker</title>
+    <vendor>Dented Armor Productions, LLC</vendor>
+    <homepage href="./index.html"/>
+    <description>BlackMUD MazeMaker</description>
+    <offline-allowed/>
+  </information>
+  <security>
+      <all-permissions/>
+  </security>
+  <resources>
+    <j2se version="1.5+" initial-heap-size="64m" max-heap-size="256m"/>
+    <jar href="./MazeMaker.jar"/>
+  </resources>
+  <application-desc main-class="com.dap.blackmud.tools.mazemaker.MazeMaker">
+  </application-desc>
+</jnlp> 
