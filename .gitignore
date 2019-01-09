@@ -4,6 +4,7 @@
 .classpath
 **/CVS
 classes
+out
 *.iml
 
 webfiles/MazeMaker.jar
